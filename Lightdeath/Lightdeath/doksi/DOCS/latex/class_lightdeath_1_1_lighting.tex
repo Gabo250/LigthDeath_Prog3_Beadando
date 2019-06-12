@@ -1,0 +1,201 @@
+\hypertarget{class_lightdeath_1_1_lighting}{}\section{Lightdeath.\+Lighting Class Reference}
+\label{class_lightdeath_1_1_lighting}\index{Lightdeath.\+Lighting@{Lightdeath.\+Lighting}}
+
+
+\hyperlink{class_lightdeath_1_1_lighting}{Lighting}  
+
+
+Inheritance diagram for Lightdeath.\+Lighting\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=5.000000cm]{class_lightdeath_1_1_lighting}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_lightdeath_1_1_lighting_a59c50e40df4a96ac572253c5323e4b44}{Initialize\+Component} ()
+\begin{DoxyCompactList}\small\item\em Initialize\+Component \end{DoxyCompactList}\item 
+\hyperlink{class_lightdeath_1_1_lighting_a8993a66b1189dc7783ebbaeb24fbf96b}{Lighting} (int damage, double x, double y, \hyperlink{class_lightdeath_1_1_maps}{Maps} map, double dirX, double dirY, \hyperlink{class_lightdeath_1_1_dark_mage}{Dark\+Mage} dark)
+\begin{DoxyCompactList}\small\item\em lightin constructor \end{DoxyCompactList}\item 
+void \hyperlink{class_lightdeath_1_1_lighting_ad8f10c0b173b0cd317d3566ea901991c}{Move} ()
+\begin{DoxyCompactList}\small\item\em move skill and hit \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_lightdeath_1_1_dark_mage}{Dark\+Mage} \hyperlink{class_lightdeath_1_1_lighting_a7411b9d9c87dfdd5471312ac876105fc}{Dark} images\textbackslash{}\+Lighting.\+P\+NG\char`\"{}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets the character \end{DoxyCompactList}\item 
+double \hyperlink{class_lightdeath_1_1_lighting_a22c0f43acec2e793bb2ea76a327f28d1}{DirX}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets the dirx \end{DoxyCompactList}\item 
+double \hyperlink{class_lightdeath_1_1_lighting_a374459abb5204827bd07c460e9384f51}{DirY}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets the diry \end{DoxyCompactList}\item 
+int \hyperlink{class_lightdeath_1_1_lighting_ab835e20ae287e354d7e2a2185a75a8c2}{Chaincounter}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets counter \end{DoxyCompactList}\item 
+\hyperlink{class_lightdeath_1_1_monsters}{Monsters} \hyperlink{class_lightdeath_1_1_lighting_aa5220bba3f66dde396c673ab0871e552}{Firsthited}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets the first hited monster \end{DoxyCompactList}\item 
+\hyperlink{class_lightdeath_1_1_monsters}{Monsters} \hyperlink{class_lightdeath_1_1_lighting_a09a9936b710638b0e4d0f39fb3c6361e}{Prev}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets prev monster \end{DoxyCompactList}\item 
+\hyperlink{class_lightdeath_1_1_monsters}{Monsters} \hyperlink{class_lightdeath_1_1_lighting_a8c9100512d19df6f9db0dfc49d5398c5}{Nextmonster}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets next monster \end{DoxyCompactList}\item 
+List$<$ \hyperlink{class_lightdeath_1_1_monsters}{Monsters} $>$ \hyperlink{class_lightdeath_1_1_lighting_afddbf150e79c46941e5c563126725464}{Inradiusmonsters}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets the inradius monster \end{DoxyCompactList}\item 
+bool \hyperlink{class_lightdeath_1_1_lighting_afee12b3ca02edeba58f4a0e6af6fe0c6}{Removeable}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets a value indicating whether the ramoveable \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_lightdeath_1_1_lighting}{Lighting} 
+
+the lighting skill 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_lightdeath_1_1_lighting_a8993a66b1189dc7783ebbaeb24fbf96b}{}\label{class_lightdeath_1_1_lighting_a8993a66b1189dc7783ebbaeb24fbf96b} 
+\index{Lightdeath\+::\+Lighting@{Lightdeath\+::\+Lighting}!Lighting@{Lighting}}
+\index{Lighting@{Lighting}!Lightdeath\+::\+Lighting@{Lightdeath\+::\+Lighting}}
+\subsubsection{\texorpdfstring{Lighting()}{Lighting()}}
+{\footnotesize\ttfamily Lightdeath.\+Lighting.\+Lighting (\begin{DoxyParamCaption}\item[{int}]{damage,  }\item[{double}]{x,  }\item[{double}]{y,  }\item[{\hyperlink{class_lightdeath_1_1_maps}{Maps}}]{map,  }\item[{double}]{dirX,  }\item[{double}]{dirY,  }\item[{\hyperlink{class_lightdeath_1_1_dark_mage}{Dark\+Mage}}]{dark }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+lightin constructor 
+
+
+\begin{DoxyParams}{Parameters}
+{\em damage} & the damage of skill\\
+\hline
+{\em x} & the x cordinate\\
+\hline
+{\em y} & the y cordinate\\
+\hline
+{\em map} & the map of skill\\
+\hline
+{\em dirX} & direction x\\
+\hline
+{\em dirY} & direction y\\
+\hline
+{\em dark} & the darkmage\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_lightdeath_1_1_lighting_a59c50e40df4a96ac572253c5323e4b44}{}\label{class_lightdeath_1_1_lighting_a59c50e40df4a96ac572253c5323e4b44} 
+\index{Lightdeath\+::\+Lighting@{Lightdeath\+::\+Lighting}!Initialize\+Component@{Initialize\+Component}}
+\index{Initialize\+Component@{Initialize\+Component}!Lightdeath\+::\+Lighting@{Lightdeath\+::\+Lighting}}
+\subsubsection{\texorpdfstring{Initialize\+Component()}{InitializeComponent()}}
+{\footnotesize\ttfamily void Lightdeath.\+Lighting.\+Initialize\+Component (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Initialize\+Component 
+
+\hypertarget{class_lightdeath_1_1_lighting_ad8f10c0b173b0cd317d3566ea901991c}{}\label{class_lightdeath_1_1_lighting_ad8f10c0b173b0cd317d3566ea901991c} 
+\index{Lightdeath\+::\+Lighting@{Lightdeath\+::\+Lighting}!Move@{Move}}
+\index{Move@{Move}!Lightdeath\+::\+Lighting@{Lightdeath\+::\+Lighting}}
+\subsubsection{\texorpdfstring{Move()}{Move()}}
+{\footnotesize\ttfamily void Lightdeath.\+Lighting.\+Move (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+move skill and hit 
+
+
+
+\subsection{Property Documentation}
+\hypertarget{class_lightdeath_1_1_lighting_ab835e20ae287e354d7e2a2185a75a8c2}{}\label{class_lightdeath_1_1_lighting_ab835e20ae287e354d7e2a2185a75a8c2} 
+\index{Lightdeath\+::\+Lighting@{Lightdeath\+::\+Lighting}!Chaincounter@{Chaincounter}}
+\index{Chaincounter@{Chaincounter}!Lightdeath\+::\+Lighting@{Lightdeath\+::\+Lighting}}
+\subsubsection{\texorpdfstring{Chaincounter}{Chaincounter}}
+{\footnotesize\ttfamily int Lightdeath.\+Lighting.\+Chaincounter\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Gets or sets counter 
+
+\hypertarget{class_lightdeath_1_1_lighting_a7411b9d9c87dfdd5471312ac876105fc}{}\label{class_lightdeath_1_1_lighting_a7411b9d9c87dfdd5471312ac876105fc} 
+\index{Lightdeath\+::\+Lighting@{Lightdeath\+::\+Lighting}!Dark@{Dark}}
+\index{Dark@{Dark}!Lightdeath\+::\+Lighting@{Lightdeath\+::\+Lighting}}
+\subsubsection{\texorpdfstring{Dark}{Dark}}
+{\footnotesize\ttfamily \hyperlink{class_lightdeath_1_1_dark_mage}{Dark\+Mage} Lightdeath.\+Lighting.\+Dark images\textbackslash{}\+Lighting.\+P\+NG\char`\"{}\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Gets or sets the character 
+
+\hypertarget{class_lightdeath_1_1_lighting_a22c0f43acec2e793bb2ea76a327f28d1}{}\label{class_lightdeath_1_1_lighting_a22c0f43acec2e793bb2ea76a327f28d1} 
+\index{Lightdeath\+::\+Lighting@{Lightdeath\+::\+Lighting}!DirX@{DirX}}
+\index{DirX@{DirX}!Lightdeath\+::\+Lighting@{Lightdeath\+::\+Lighting}}
+\subsubsection{\texorpdfstring{DirX}{DirX}}
+{\footnotesize\ttfamily double Lightdeath.\+Lighting.\+DirX\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Gets or sets the dirx 
+
+\hypertarget{class_lightdeath_1_1_lighting_a374459abb5204827bd07c460e9384f51}{}\label{class_lightdeath_1_1_lighting_a374459abb5204827bd07c460e9384f51} 
+\index{Lightdeath\+::\+Lighting@{Lightdeath\+::\+Lighting}!DirY@{DirY}}
+\index{DirY@{DirY}!Lightdeath\+::\+Lighting@{Lightdeath\+::\+Lighting}}
+\subsubsection{\texorpdfstring{DirY}{DirY}}
+{\footnotesize\ttfamily double Lightdeath.\+Lighting.\+DirY\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Gets or sets the diry 
+
+\hypertarget{class_lightdeath_1_1_lighting_aa5220bba3f66dde396c673ab0871e552}{}\label{class_lightdeath_1_1_lighting_aa5220bba3f66dde396c673ab0871e552} 
+\index{Lightdeath\+::\+Lighting@{Lightdeath\+::\+Lighting}!Firsthited@{Firsthited}}
+\index{Firsthited@{Firsthited}!Lightdeath\+::\+Lighting@{Lightdeath\+::\+Lighting}}
+\subsubsection{\texorpdfstring{Firsthited}{Firsthited}}
+{\footnotesize\ttfamily \hyperlink{class_lightdeath_1_1_monsters}{Monsters} Lightdeath.\+Lighting.\+Firsthited\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Gets or sets the first hited monster 
+
+\hypertarget{class_lightdeath_1_1_lighting_afddbf150e79c46941e5c563126725464}{}\label{class_lightdeath_1_1_lighting_afddbf150e79c46941e5c563126725464} 
+\index{Lightdeath\+::\+Lighting@{Lightdeath\+::\+Lighting}!Inradiusmonsters@{Inradiusmonsters}}
+\index{Inradiusmonsters@{Inradiusmonsters}!Lightdeath\+::\+Lighting@{Lightdeath\+::\+Lighting}}
+\subsubsection{\texorpdfstring{Inradiusmonsters}{Inradiusmonsters}}
+{\footnotesize\ttfamily List$<$\hyperlink{class_lightdeath_1_1_monsters}{Monsters}$>$ Lightdeath.\+Lighting.\+Inradiusmonsters\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Gets or sets the inradius monster 
+
+\hypertarget{class_lightdeath_1_1_lighting_a8c9100512d19df6f9db0dfc49d5398c5}{}\label{class_lightdeath_1_1_lighting_a8c9100512d19df6f9db0dfc49d5398c5} 
+\index{Lightdeath\+::\+Lighting@{Lightdeath\+::\+Lighting}!Nextmonster@{Nextmonster}}
+\index{Nextmonster@{Nextmonster}!Lightdeath\+::\+Lighting@{Lightdeath\+::\+Lighting}}
+\subsubsection{\texorpdfstring{Nextmonster}{Nextmonster}}
+{\footnotesize\ttfamily \hyperlink{class_lightdeath_1_1_monsters}{Monsters} Lightdeath.\+Lighting.\+Nextmonster\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Gets or sets next monster 
+
+\hypertarget{class_lightdeath_1_1_lighting_a09a9936b710638b0e4d0f39fb3c6361e}{}\label{class_lightdeath_1_1_lighting_a09a9936b710638b0e4d0f39fb3c6361e} 
+\index{Lightdeath\+::\+Lighting@{Lightdeath\+::\+Lighting}!Prev@{Prev}}
+\index{Prev@{Prev}!Lightdeath\+::\+Lighting@{Lightdeath\+::\+Lighting}}
+\subsubsection{\texorpdfstring{Prev}{Prev}}
+{\footnotesize\ttfamily \hyperlink{class_lightdeath_1_1_monsters}{Monsters} Lightdeath.\+Lighting.\+Prev\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Gets or sets prev monster 
+
+\hypertarget{class_lightdeath_1_1_lighting_afee12b3ca02edeba58f4a0e6af6fe0c6}{}\label{class_lightdeath_1_1_lighting_afee12b3ca02edeba58f4a0e6af6fe0c6} 
+\index{Lightdeath\+::\+Lighting@{Lightdeath\+::\+Lighting}!Removeable@{Removeable}}
+\index{Removeable@{Removeable}!Lightdeath\+::\+Lighting@{Lightdeath\+::\+Lighting}}
+\subsubsection{\texorpdfstring{Removeable}{Removeable}}
+{\footnotesize\ttfamily bool Lightdeath.\+Lighting.\+Removeable\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Gets or sets a value indicating whether the ramoveable 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Gabo/\+Source/\+Repos/\+New\+Repo3/\+Lightdeath/\+Lightdeath/obj/\+Debug/\hyperlink{_lighting_8g_8i_8cs}{Lighting.\+g.\+i.\+cs}\item 
+C\+:/\+Users/\+Gabo/\+Source/\+Repos/\+New\+Repo3/\+Lightdeath/\+Lightdeath/skill/\hyperlink{_lighting_8cs}{Lighting.\+cs}\end{DoxyCompactItemize}

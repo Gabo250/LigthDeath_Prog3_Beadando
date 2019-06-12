@@ -1,0 +1,34 @@
+﻿<Window ResizeMode="NoResize" x:Class="Lightdeath.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lightdeath"
+        mc:Ignorable="d"
+        Title="LightDeath" Height="350" Width="525" WindowStyle="ToolWindow">
+    <Grid x:Name="login">
+        <Grid.Background>
+            <ImageBrush ImageSource="Images/Login_BackGround.PNG"/>
+        </Grid.Background>
+        <Label x:Name="label" Content="Username:" HorizontalAlignment="Left" Margin="123,98,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label x:Name="label1" Content="Password:" HorizontalAlignment="Left" Margin="127,158,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.491,0.459" Foreground="White"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="204,101,0,0" TextWrapping="Wrap" Text="{Binding User.Accname}" VerticalAlignment="Top" Width="198" Background="{x:Null}" Foreground="White" SelectionBrush="White"/>
+        <Button  x:Name="button" Content="Login" HorizontalAlignment="Left" Margin="127,241,0,0" VerticalAlignment="Top" Width="132" Click="Login" Foreground="White">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF252424" Offset="1"/>
+                    <GradientStop Color="White"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button1" Content="Create Account" HorizontalAlignment="Left" Margin="270,241,0,0" VerticalAlignment="Top" Width="132" Click="CreateAcc" Foreground="White">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF252424" Offset="1"/>
+                    <GradientStop Color="White"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <PasswordBox x:Name="passwordBox" HorizontalAlignment="Left"  Margin="204,158,0,0" VerticalAlignment="Top" Width="198" Height="23" PasswordChanged="PasswordBox_PasswordChanged" Foreground="White" ForceCursor="False" Background="{x:Null}" />
+    </Grid>
+</Window>
